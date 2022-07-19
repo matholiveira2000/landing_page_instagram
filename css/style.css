@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    
+}
+
+body {
+    background-color: #FAFAFA;
+    width:100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 62%;
+    height: 100vh;
+}
+
+.instagramphone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.instagramphone img {
+    height: 50rem;
+}
+
+.login {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    min-height: 34rem;
+    background-color: #FAFAFA;
+    
+}
+
+.entrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+
+}
+
+.entrar:nth-child(1) {
+    min-height: 13ren;
+}
+
+.entrar img {
+    height: 3rem;
+}
+
+.fotoperfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    
+}
+
+.fotoperfil img{
+   height: 6rem;
+}
+
+.come{
+    background-color: #0095F6;
+    color:#FAFAFA;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+
+.sair{
+    color:#0095F6;
+    margin-top: 2rem;
+}
+
+
+.gettheapp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.badges {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1rem;
+    
+}
+
+.download{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.download:nth-child(1){
+    background-image: url(../midia/appstorelogo.png);
+}
+
+.download:nth-child(2){
+    background-image: url(../midia/google-play-badge.png);
+}
